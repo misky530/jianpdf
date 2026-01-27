@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 - 圆角矩形 -->
+  <rect x="50" y="50" width="412" height="412" rx="80" fill="#4F46E5"/>
+  
+  <!-- PDF图标轮廓 -->
+  <path d="M 150 150 L 300 150 L 350 200 L 350 350 L 150 350 Z" 
+        fill="none" stroke="white" stroke-width="20" stroke-linejoin="round"/>
+  
+  <!-- PDF折角 -->
+  <path d="M 300 150 L 300 200 L 350 200" 
+        fill="none" stroke="white" stroke-width="20" stroke-linejoin="round"/>
+  
+  <!-- 简字 (简化版) -->
+  <text x="256" y="320" 
+        font-family="Arial, sans-serif" 
+        font-size="120" 
+        font-weight="bold" 
+        fill="white" 
+        text-anchor="middle">简</text>
+  
+  <!-- 底部标签 -->
+  <rect x="150" y="380" width="212" height="50" rx="25" fill="#818CF8"/>
+  <text x="256" y="414" 
+        font-family="Arial, sans-serif" 
+        font-size="28" 
+        font-weight="bold" 
+        fill="white" 
+        text-anchor="middle">PDF</text>
+</svg>
