@@ -35,9 +35,27 @@ python src/main.py
 - ✅ **实时进度** - 清晰的转换进度显示
 - ✅ **轻量级** - 仅 25MB，比 Stirling-PDF 小 15 倍
 
-## 📸 截图
+## 📸 产品截图
 
-[添加你的实际截图]
+### 主界面
+![主界面](screenshots/main-interface.png)
+
+*简洁直观的用户界面，一目了然*
+
+### 单文件转换
+![单文件转换](screenshots/single-convert.png)
+
+*选择PDF文件，一键转换*
+
+### 批量转换
+![批量转换](screenshots/batch-convert.png)
+
+*同时处理多个文件，实时显示进度*
+
+### 转换完成
+![转换完成](screenshots/completed.png)
+
+*详细的转换日志，成功失败一目了然*
 
 ## 🆚 与竞品对比
 
