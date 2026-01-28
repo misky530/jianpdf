@@ -1,86 +1,97 @@
 # 简PDF
 
-轻量级 PDF 转 Word 工具
+[![GitHub release](https://img.shields.io/github/v/release/misky530/jianpdf)](https://github.com/misky530/jianpdf/releases)
+[![License](https://img.shields.io/github/license/misky530/jianpdf)](LICENSE)
 
-## 特性
+> 轻量级 PDF 转 Word 桌面工具 - 20MB 搞定一切！
 
-- ✅ 单文件转换
-- ✅ 批量转换
-- ✅ 本地转换，安全可靠
-- ✅ 轻量级（~20MB）
-- ✅ 无需安装额外依赖
+## 🚀 快速开始
 
-## 快速开始
+### 下载安装
 
-### 方式1: 下载安装包（推荐）
+**Windows 用户（推荐）:**
 
-1. 下载 `简PDF.exe`
-2. 双击运行
-3. 选择PDF文件开始转换
+👉 **[下载最新版 v0.1.0](https://github.com/misky530/jianpdf/releases/latest)**
 
-### 方式2: 从源码运行
+国内用户推荐使用 GitCode（速度更快）:
+
+👉 **[GitCode 下载](https://gitcode.com/prometheus2025/jianpdf/releases)**
+
+下载 `简PDF.exe`，双击运行即可！
+
+### 从源码运行
 ```bash
-# 1. 克隆仓库
-git clone https://gitcode.com/your-name/jianpdf.git
+git clone https://github.com/misky530/jianpdf.git
 cd jianpdf
-
-# 2. 安装依赖
 pip install -r requirements.txt
-
-# 3. 运行程序
 python src/main.py
 ```
 
-### 方式3: 自己打包
-```bash
-# Windows
-build.bat
+## ✨ 功能特性
 
-# Linux/Mac
-pip install -r requirements.txt
-pip install pyinstaller
-pyinstaller --name=简PDF --onefile --windowed src/main.py
-```
+- ✅ **单文件转换** - 快速转换单个PDF
+- ✅ **批量转换** - 同时处理多个PDF文件
+- ✅ **本地转换** - 安全可靠，不上传服务器
+- ✅ **实时进度** - 清晰的转换进度显示
+- ✅ **轻量级** - 仅 25MB，比 Stirling-PDF 小 15 倍
 
-## 使用说明
+## 📸 截图
 
-### 单文件转换
-1. 点击"单文件转换"
-2. 选择PDF文件
-3. 选择保存位置
-4. 等待转换完成
+[添加你的实际截图]
 
-### 批量转换
-1. 点击"批量转换"
-2. 选择多个PDF文件（可多选）
-3. 选择输出文件夹
-4. 等待转换完成
+## 🆚 与竞品对比
 
-## 系统要求
+| 特性 | 简PDF | Stirling-PDF |
+|------|-------|--------------|
+| 安装包大小 | 25MB | 350MB |
+| 安装方式 | 免安装 | 需要Docker |
+| 启动速度 | 秒开 | 需要几分钟 |
+| 使用难度 | 极简 | 复杂 |
 
-- Windows 10/11
-- 无需安装其他软件
+## 📝 更新日志
 
-## 技术栈
+查看 [Releases](https://github.com/misky530/jianpdf/releases) 了解版本历史
 
-- Python 3.9+
-- pdf2docx
-- Tkinter
+## 🤝 贡献
 
-## 更新日志
+欢迎提交 Issue 和 Pull Request！
 
-### v0.1.0 (2025-01-XX)
-- 首次发布
-- 支持单文件转换
-- 支持批量转换
-- GUI界面
-
-## 许可证
+## 📄 开源协议
 
 MIT License
 
-## 联系方式
+## 📮 联系方式
 
+- Issue: https://github.com/misky530/jianpdf/issues
 - 微信: your_wechat
-- 邮箱: your_email
-- GitHub: https://github.com/your-name/jianpdf
+- 邮箱: your_email@example.com
+```
+
+---
+
+### **Step 7: 通知第一个用户（5分钟）**
+```
+好消息！简PDF v0.1.0 正式发布了！🎉
+
+下载地址:
+👉 GitHub: https://github.com/misky530/jianpdf/releases/tag/v0.1.0
+👉 GitCode: https://gitcode.com/prometheus2025/jianpdf/releases/tag/v0.1.0
+
+(推荐使用 GitCode，国内速度快)
+
+新版本功能:
+✓ 单文件转换 - 快速转换单个PDF
+✓ 批量转换 - 同时处理多个文件
+✓ 实时进度 - 清晰显示转换进度
+✓ 详细日志 - 记录每个文件的转换结果
+
+使用说明:
+1. 下载 简PDF.exe
+2. 双击运行（无需安装）
+3. 开始使用！
+
+作为第一位用户，感谢您的支持和反馈！🙏
+
+如有任何问题或建议，随时联系我！
+
+Anthony
